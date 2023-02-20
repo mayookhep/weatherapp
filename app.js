@@ -10,7 +10,7 @@ app.get("/", function (req, res) {
     res.sendFile(__dirname + "/index.html");
 
 });
-app.post("/", function (req, res) {
+app.post("https://mayookhep.github.io/weatherapp/", function (req, res) {
 
     const city = req.body.cityName;
     const apikey = "1f5cf389f56b1082705c629cdaa99efd";
