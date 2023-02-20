@@ -6,7 +6,7 @@ const bodyparser = require("body-parser");
 app.use(bodyparser.urlencoded({ extended: true }));
 
 
-app.get("/", function (req, res) {
+app.get("https://mayookhep.github.io/weatherapp/", function (req, res) {
     res.sendFile(__dirname + "/index.html");
 
 });
